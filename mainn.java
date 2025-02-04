@@ -30,7 +30,7 @@ class Main{
     trueFalse = true;
     //booleans in java is all lowercase
     
-    fractions = 3.5
+    fractions = 3.5;
     c = '!';
     //single qoute for char, stores one 
 
@@ -46,7 +46,26 @@ class Main{
     // when variables are used anywhere except the left side of the equal side, it is a variable call
 
     System.out.println(word);
+
     
+    num = num + 1;  // assignments always happen last 
+    //rightside happen before leftside)
+    // like num + 1 and then num = num +1
+    num ++; //only adds one
+    ++ num;
+    num += 1; 
     
+    // subtraction (-) multiplication (*) division (/) mod(%) <- remainders
+    // -=, *=, /=, %=
+    System.out.println(5/7);
+    System.out.println(3.5+5/7);
+    // because of order of operations it does 5/7 first then adds 3.5 which is 1+3.5 = 4.5
+
+    num = 5;
+    System.out.println(num++); //runs after the line of code runs
+    num = 5;
+    System.out.println(++5); // runs before the line of code runs
+
+    System.out.println(10%3);
   }
 }
