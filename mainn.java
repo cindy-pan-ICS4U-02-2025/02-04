@@ -3,7 +3,7 @@ class Main{
   public static void main(String[] args){
 
     System.out.println("A");
-    Systen.out.printn("  or ");
+    System.out.print("  or ");
     System.out.printf("");
     
     int num; //whole numbers
@@ -45,7 +45,7 @@ class Main{
     // variable - using variable at other points in the program
     // when variables are used anywhere except the left side of the equal side, it is a variable call
 
-    System.out.println(word);
+    System.out.println(words);
 
     
     num = num + 1;  // assignments always happen last 
@@ -64,7 +64,7 @@ class Main{
     num = 5;
     System.out.println(num++); //runs after the line of code runs
     num = 5;
-    System.out.println(++5); // runs before the line of code runs
+    System.out.println(++num); // runs before the line of code runs
 
     System.out.println(10%3);
   }
